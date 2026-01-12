@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Positions</title>
+  </head>
+  <style>
+    h1::after {
+      background-color: bisque;
+    }
+    h1 {
+      display: flex;
+      margin: 0 auto;
+      /* border: 2px solid black; */
+      justify-content: center;
+    }
+    .box-container {
+      border: 2px solid green;
+      position: relative;
+    }
+    .dummy {
+      border: 2px solid rgb(72, 12, 185);
+      width: 200px;
+      /* display: flex;
+      margin: 0 auto; */
+      height: 150px;
+    }
+    .dummy2 {
+      border: 2px solid rgb(153, 185, 12);
+      width: 200px;
+      /* display: flex;
+      margin: 0 auto; */
+      height: 150px;
+    }
+    .box {
+      border: 2px solid red;
+      width: 200px;
+      /* display: flex;
+      margin: 0 auto; */
+    }
+
+    .water {
+      position: sticky;
+      top: 0px;
+    }
+
+    .ring {
+      position: fixed;
+      top: 50px;
+    }
+    /* .ring {
+      position: relative;
+      top: 20px;
+      right: 100px;
+      left: 500px;
+    } */
+
+    /* .ring {
+      position: absolute;
+      right: 200px;
+      top: 50px;
+    } */
+
+    /* .box {
+      position: absolute;
+    } */
+    /* .boy {
+      top: 150px;
+    } */
+  </style>
+  <body>
+    <h1>Trying to understand CSS Positions</h1>
+    <ul>
+      <small> Flow Relatted</small>
+      <!-- flow relatted -->
+      <li>Static</li>
+      <li>Relative</li>
+      <li>Absolute</li>
+      <!-- better navbar effects -->
+      <!-- scroll related -->
+      <small> Scrol Relatted</small>
+      <li>Sticky</li>
+      <li>Fixed</li>
+    </ul>
+    <div class="box-container">
+      <div class="box boy">
+        <img src="./swim/boy.svg" alt="" />
+      </div>
+
+      <div class="box ring">
+        <img src="./swim/ring.svg" alt="" />
+      </div>
+
+      <div class="box water">
+        <img src="./swim/water.svg" alt="" />
+      </div>
+
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+    </div>
+
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+    <div class="dummy2"></div>
+  </body>
+</html>
